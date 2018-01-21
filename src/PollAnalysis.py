@@ -63,7 +63,6 @@ print( mydata.head() )
 
 
 
-
 # Gender
 plt.figure(figsize=figure_size)
 plt.hist(mydata['gender'], bins=(-0.3,0.3,0.7,1.3) )
